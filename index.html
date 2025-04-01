@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartinha</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="cartinha">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="texto">
+                        <strong>Inesquecível Luan,</strong>
+                        <p>
+                            Quando digo que te amo, ele não é dito por hábito, não são só palavras. 
+                            Quando digo que te amo, é quando quero cuidar de você estando bem ou não, 
+                            quando quero te confortar em todos os momentos, quando quero te morder, 
+                            quando quero dormir abraçada com você ou só ficar na mesma cama que você, 
+                            é quando sinto seu pé quentinho e tento me aquecer nele, ou quando escuto a sua respiração, pois isso me acalma, assim como escutar a sua voz, pois como lhe disse da primeira vez que a escutei disse que ela é linda, aaah que voz encantadora. 
+                            É quando quero ficar acordada com você até que você caia no sono, é quando compro algo pra você, pois sei que aquilo iria fazer o seu coração ficar quentinho, 
+                            é quando tento fazer uma graça para tentar arrancar o seu sorriso, amo como o seu rosto fica quando você sorrir se pudesse faria uma pintura com os traços belos que o seu rosto faz, é uma bela obra de arte, mas amo mais porque sei que aquilo te fez bem. 
+                            É quando fico te pertubando e amo quando você diz que eu estou te pertubando. É quando falo pra gente ter experiências novas pra termos novas aventuras, é quando falo pra gente sair pra gente conseguir relaxar a mente, pra que possamos sentir mais a natureza, pra que a gente corra do stress da semana. 
+                            Quando falo que te amo é quando aprendo alguma receita nova pra fazer pra você, pra que você coma algo feito por mim, digo o mesmo quando faço algo pra você feito por mim, não somente comprado. Quando com você consigo expressar os meus sentimentos, o meu carinho, o meu amor. 
+                            Amo-te quando estou tentando ser uma pessoa melhor, uma pessoa que está se atentando mais aos detalhes, uma pessoa que não quer te perder. Amo-te quando digo que estou e estarei aqui por você. Amo -te quando te escolho todos os dias.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="coração"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector(".cartinha");
+        const coração = document.querySelector(".coração");
+
+        coração.addEventListener("click", () => {
+            envelope.classList.toggle("flap");
+        });
+    </script>
+</body>
+</html>
